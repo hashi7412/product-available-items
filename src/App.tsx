@@ -1,5 +1,11 @@
 import React from "react";
+import ProductPage from "./pages/product";
+import { Container } from "./components/Container";
 
-export const App: React.FC = () => (
-    <h1>Hello React</h1>
-);
+export const App: React.FC = () => {
+    return (
+        <Container>
+            <ProductPage />
+        </Container>
+    )
+}
