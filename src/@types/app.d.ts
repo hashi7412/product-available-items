@@ -3,6 +3,4 @@ interface ProductType {
     category?: string
     name: string
     price: number
-    minPrice?: number
-    maxPrice?: number
 }

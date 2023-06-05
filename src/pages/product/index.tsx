@@ -13,7 +13,7 @@ const ProductPage: React.FC = () => {
     return (
         <Fragment>
             <h1 style={{ marginBottom: '0.5em' }}>Available Items</h1>
-            <Flex>
+            <Flex $gap="2rem">
                 <ProductSection>
                     <Grid $count={3} $gap="1rem">
                         {_PRODUCTS.map((item: ProductType, key: number) => (

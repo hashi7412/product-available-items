@@ -7,4 +7,5 @@ export const SpinContainer = styled.div`
 
 export const StatusPanel = styled.div`
     background: #F6F6F8;
+    padding: 1.5rem;
 `
